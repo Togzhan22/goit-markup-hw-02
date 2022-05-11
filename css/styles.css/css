@@ -1,0 +1,126 @@
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+:root {
+    --primary-text-color: #212121;
+    --title-color: #757575;
+    --accent-color: #2196F3;
+    --white-color: #FFFFFF;
+}
+
+.body {
+    Font family: Roboto;
+    Font family: Raleway
+}
+
+
+/*цвет основного текста #212121*/
+
+
+/*цвет вторичного текста #757575*/
+
+
+/*белый #FFFFFF*/
+
+
+/*акцент #2196F3*/
+
+
+/*цвет основного фона #E5E5E5*/
+
+
+/*цвет вторичного фона #F5F4FA*/
+
+.logo {
+    font-family: 'Raleway', sans-serif;
+    font-style: Bold;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1, 19;
+    letter-spacing: 3%;
+    color: #2196F3;
+}
+
+.logo-accent {
+    color: var(--primary-text-color);
+}
+
+
+/*site-nav*/
+
+.site-nav {
+    color: var (--primary-text-color);
+    Font-style: Medium;
+    Font-size: 14px;
+    Line-height: 1.14;
+    Align: Left;
+    Vertical-align: Top;
+    Letter-spacing: 2%;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: var (--accent-color);
+}
+
+
+/*auth-nav*/
+
+.contact-nav {
+    color: var (--primary-text-color);
+    Font-style: Medium;
+    Font-size: 14px;
+    Line-height: 1.14;
+    Align: Left;
+    Vertical-align: Top;
+    Letter-spacing: 2%;
+}
+
+.contact-nav .link:hover,
+.contact-nav .link:focus {
+    color: var (--accent-color);
+}
+
+
+/*hero*/
+
+.hero-title {
+    color: var (--white-color);
+    Font-style: Black;
+    Font-size: 44px;
+    Line-height: 1.36;
+    Align: Center;
+    Vertical-align: Top;
+    Letter-spacing: 6%;
+}
+
+.modal-btn {
+    color: var (--white-color);
+    background-color: #2196F3;
+    Font-style: Bold;
+    Font-size: 16px;
+    Line-height: 1.87;
+    Align: Center;
+    Vertical-align: Center;
+    Letter-spacing: 6%;
+}
+
+
+/*section*/
+
+.section-title {
+    color: var (--primary-text-color);
+}
+
+.feature-title {
+    color: var (--primary-text-color);
+}
+
+.text {
+    color: var(--title-color);
+}
