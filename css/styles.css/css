@@ -115,8 +115,10 @@
             letter-spacing: 3%;
         }
         
-        .contact-info:hover,
-        .contact-info:focus {
+        .contact-info,
+        .contact-info-item:hover,
+        .contact-info,
+        .contact-info-item:focus {
             color: #FFFFFF;
         }
         /*   hero  */
