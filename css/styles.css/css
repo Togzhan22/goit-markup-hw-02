@@ -63,6 +63,7 @@
         /*site-nav*/
         
         .site-nav {
+            color: #212121;
             font-family: var(--primary-font-family: 'Roboto');
             Font-style: Medium;
             Font-size: 14px;
@@ -72,13 +73,14 @@
             Letter-spacing: 2%;
         }
         
-        .site-nav .link:hover,
-        .site-nav .link:focus {
+        .site-nav:hover,
+        .site-nav:focus {
             color: #2196F3;
         }
         /*contact-nav*/
         
         .contact-nav {
+            color: #212121;
             font-family: var(--primary-font-family: 'Roboto');
             Font-style: Medium;
             font-size: 14px;
@@ -88,8 +90,8 @@
             letter-spacing: 2%;
         }
         
-        .contact-nav .link:hover,
-        .contact-nav .link:focus {
+        .contact-nav:hover,
+        .contact-nav:focus {
             color: #2196F3;
         }
         
@@ -104,6 +106,11 @@
             letter-spacing: 3%;
         }
         
+        .contact-info:hover,
+        .contact-info:focus {
+            color: #2196F3;
+        }
+        
         .contact-info-item {
             color: rgba(255, 255, 255, 0.6);
             font-family: var(--primary-font-family: 'Roboto');
@@ -115,11 +122,9 @@
             letter-spacing: 3%;
         }
         
-        .contact-info,
         .contact-info-item:hover,
-        .contact-info,
         .contact-info-item:focus {
-            color: #FFFFFF;
+            color: #2196F3;
         }
         /*   hero  */
         
@@ -148,6 +153,7 @@
             align: Center;
             vertical-align: Center;
             letter-spacing: 6%;
+            cursor: pointer
         }
         
         .modal-btn:hover,
@@ -166,6 +172,7 @@
             Align: Center;
             Vertical-align: Top;
             Letter-spacing: 3%;
+            cursor: pointer
         }
         
         .style-btn:hover,
