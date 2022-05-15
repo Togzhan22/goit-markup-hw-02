@@ -155,7 +155,8 @@
         }
         
         .style-btn.current {
-            color: #2196F3;
+            color: #FFFFFF;
+            background-color: #2196F3
         }
         /* section  */
         
@@ -185,11 +186,6 @@
             Font-size: 14px;
             Line-height: 1.14;
             text-align: Left;
-            Vertical-align: Top;
-            Letter-spacing: 0.03em;
-        }
-        
-        .employees {
             Vertical-align: Top;
             Letter-spacing: 0.03em;
         }
