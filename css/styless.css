@@ -9,7 +9,7 @@
          :root {
             --primary-text-color: #212121;
             --title-color: #757575;
-            --primary-font-family: 'Roboto';
+            --primary-font-family: "Roboto";
             --primary-text-color-theme-light: #E5E5E5;
             --secondary-text-color-theme-light: #F5F4FA;
             --primary-text-color-theme-dark: #2F303A;
@@ -108,7 +108,7 @@
         }
         
         .style-btn {
-            background-color: #FFFFFF;
+            background-color: var(--secondary-text-color-theme-light);
             color: var(--primary-text-color);
             font-weight: 500;
             Font-size: 16px;
@@ -202,6 +202,7 @@
         }
         
         .section-works {
+            color: var(--primary-text-color);
             font-weight: 700;
             Font-size: 18px;
             Line-height: 2;
