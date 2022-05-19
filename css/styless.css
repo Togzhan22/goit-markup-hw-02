@@ -9,14 +9,13 @@
          :root {
             --primary-text-color: #212121;
             --title-color: #757575;
-            --primary-font-family: "Roboto";
             --primary-text-color-theme-light: #E5E5E5;
             --secondary-text-color-theme-light: #F5F4FA;
             --primary-text-color-theme-dark: #2F303A;
         }
         
         .body {
-            font-family: var(--primary-font-family), sans-serif;
+            font-family: "Roboto", sans-serif;
             font-style: normal;
         }
         /*цвет основного текста #212121*/
@@ -25,6 +24,10 @@
         /*акцент #2196F3*/
         /*цвет основного фона #E5E5E5*/
         /*цвет вторичного фона #F5F4FA*/
+        
+        .page {
+            font-family: "Roboto"
+        }
         /*      HEADER    */
         
         .page-header {
@@ -156,10 +159,6 @@
         
         .title-theme-light {
             background-color: var(--secondary-text-color-theme-light);
-        }
-        
-        .section-background-theme-light {
-            background-color: var(--primary-text-color-theme-light);
         }
         
         .section {
