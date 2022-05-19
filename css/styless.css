@@ -14,7 +14,7 @@
             --primary-text-color-theme-dark: #2F303A;
         }
         
-        .body {
+        body {
             font-family: "Roboto", sans-serif;
             font-style: normal;
         }
@@ -24,10 +24,6 @@
         /*акцент #2196F3*/
         /*цвет основного фона #E5E5E5*/
         /*цвет вторичного фона #F5F4FA*/
-        
-        .page {
-            font-family: "Roboto"
-        }
         /*      HEADER    */
         
         .page-header {
