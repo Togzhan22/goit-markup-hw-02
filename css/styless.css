@@ -22,8 +22,8 @@
         /*цвет вторичного текста #757575*/
         /*белый #FFFFFF*/
         /*акцент #2196F3*/
-        /*цвет основного фона #E5E5E5*/
-        /*цвет вторичного фона #F5F4FA*/
+        /*цвет фона #F5F4FA*/
+        /*цвет фона #2F303A*/
         /*      HEADER    */
         
         .page-header {
@@ -86,6 +86,10 @@
         
         .contact-nav:hover,
         .contact-nav:focus {
+            color: #2196F3;
+        }
+        
+        .contact-nav.current {
             color: #2196F3;
         }
         
