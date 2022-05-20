@@ -79,17 +79,13 @@
         /*contact-nav*/
         
         .contact-nav {
-            color: var(--primary-text-color);
+            color: var(--title-color);
             font-weight: 500;
             font-size: 14px;
         }
         
         .contact-nav:hover,
         .contact-nav:focus {
-            color: #2196F3;
-        }
-        
-        .contact-nav.current {
             color: #2196F3;
         }
         
